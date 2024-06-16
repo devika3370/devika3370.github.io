@@ -16,7 +16,7 @@ I'm excited about the future of technology and eager to be part of teams that pu
 
 # Work Experience
 
-* [ZS Associates](https://www.zs.com/) [2021-2023]
+* [ZS Associates](https://www.zs.com/) [2021 - 2023]
 * [Asteria Aerospace](https://asteria.co.in/) [2020]
 
 
