@@ -6,7 +6,7 @@ layout: default
 
 Hello! I'm Devika. I am currently pursuing MS in Electrical Engineering with a specialization in Machine Learning at [Columbia University](https://www.ee.columbia.edu/ms-program-ee).
 
-Before joining Columbia, I spent two years as a Software Engineer at [ZS Associates](https://www.zs.com/), where I designed and developed analytical solutions for pharmaceutical industry. My role comprised of backend development, frontend development, and DevOps, providing me with a comprehensive understanding of the software development lifecycle and the ability to contribute effectively across various stages of a project.
+Before joining Columbia, I worked as a Software Engineer at [ZS Associates](https://www.zs.com/) for two years, where I designed and developed analytical solutions for pharmaceutical industry. My role comprised of backend development, frontend development, and DevOps, providing me with a comprehensive understanding of the software development lifecycle and the ability to contribute effectively across various stages of a project.
 
 Currently, I am working as a researcher under the guidance of [Professor Zoran Kostic](https://sites.google.com/site/mobiledcc/zk-my-page?authuser=0) in the [computer vision team](https://www.cosmos-lab.org/experimentation/smart-city-intersections/) at the [COSMOS Lab](https://cosmos-lab.org/).
 
