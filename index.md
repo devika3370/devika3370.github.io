@@ -22,3 +22,6 @@ My passion lies at the intersection of machine learning and computer vision. I a
 
 * MS Electrical Engineering, Columbia University [2024]
 * BE Electronics and Communication Engineering, BITS Pilani [2017]
+
+
+You can download my resume [here]({{ site.resume_path }}).
