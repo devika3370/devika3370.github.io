@@ -20,5 +20,5 @@ My passion lies at the intersection of machine learning and computer vision. I a
 
 # Education
 
-* MS [EE] Columbia University [2024]
-* BE [EE] BITS Pilani [2017]
+* MS Electrical Engineering, Columbia University [2024]
+* BE Electronics and Communication Engineering, BITS Pilani [2017]

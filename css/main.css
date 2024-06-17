@@ -41,3 +41,34 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* New CSS */
+.center-align {
+    text-align: center;
+}
+
+.center-block {
+    display: block;
+    margin: 0 auto;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Space between icons */
+.downloads li {
+    margin: 0 10px; /* Adjust spacing as needed */
+}
+
+/* Remove default list styling for downloads */
+.downloads {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
