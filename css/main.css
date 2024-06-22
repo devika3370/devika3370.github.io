@@ -77,6 +77,13 @@ ul.posts li {
     text-align: left;
 }
 
+.profile{
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
     body {
@@ -105,3 +112,4 @@ ul.posts li {
         margin: 10px 0;
     }
 }
+
