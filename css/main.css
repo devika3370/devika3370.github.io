@@ -98,3 +98,18 @@ ul.posts li {
         margin: 10px 0;
     }
 }
+
+.tab-navigation {
+    text-align: left; /* Ensures the navigation items are left-aligned */
+}
+
+.tab-navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tab-navigation ul li {
+    display: inline;
+    margin-right: 15px;
+}
