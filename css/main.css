@@ -100,18 +100,9 @@ ul.posts li {
 }
 
 /* Adjustments for tab navigation */
-.tab-navigation ul {
-    list-style-type: none;
+.tab-navigation{
+    list-style: none;
     padding: 0;
     margin: 0;
-    text-align: left; /* Ensures the list items are left-aligned */
-}
-
-.tab-navigation ul li {
-    display: inline-block; /* Display as inline-block to respect margins */
-    margin-right: 15px;
-}
-
-.tab-navigation ul li:last-child {
-    margin-right: 0; /* Remove margin-right from the last item */
+    text-align: left;
 }
