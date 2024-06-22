@@ -1,57 +1,69 @@
 body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    margin: 0;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.wrapper {
+    display: flex;
 }
 
-ul.posts li {
-    list-style: none;
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
 }
 
-.center-align {
+.profile {
     text-align: center;
 }
 
-.center-block {
-    display: block;
-    margin: 0 auto;
+.profile img {
+    width: 100px;
+    border-radius: 50%;
 }
 
-.center-flex {
+.profile h1 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.downloads {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,37 +76,40 @@ ul.posts li {
     margin: 0 10px;
 }
 
-.downloads {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.downloads a {
+    color: white;
 }
 
-/* Responsive adjustments */
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    text-align: center;
+    padding: 10px 0;
+}
+
 @media (max-width: 600px) {
-    body {
-        width: 90%;
-        margin: 20px auto;
+    .sidebar {
+        width: 100%;
+        height: auto;
     }
 
-    h1 {
-        font-size: 2em;
+    .profile img {
+        width: 80px;
     }
 
-    p {
+    .profile h1 {
         font-size: 1.2em;
     }
 
-    nav ul li, footer ul li {
-        display: block;
+    nav ul li {
         margin: 10px 0;
     }
 
-    .center-flex {
+    .downloads {
         flex-direction: column;
     }
 
     .downloads li {
-        margin: 10px 0;
+        margin: 5px 0;
     }
 }
