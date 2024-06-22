@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Education
 
 * MS Electrical Engineering, Columbia University [2024]
