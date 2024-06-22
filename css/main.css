@@ -70,6 +70,13 @@ ul.posts li {
     margin: 0;
 }
 
+.tab-navigation{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
     body {
@@ -97,12 +104,4 @@ ul.posts li {
     .downloads li {
         margin: 10px 0;
     }
-}
-
-/* Adjustments for tab navigation */
-.tab-navigation{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: left;
 }
