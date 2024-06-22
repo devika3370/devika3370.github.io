@@ -24,13 +24,10 @@
         <br>  
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <ul class="tab-navigation">
-          <li><a href="#" onclick="showContent('about')">About</a></li>
-          <li><a href="#" onclick="showContent('work')">Work Experience</a></li>
-          <li><a href="#" onclick="showContent('education')">Education</a></li>
-          <li><a href="#" onclick="showContent('projects')">Projects</a></li>
-        </ul>
-
+        <a href="#" onclick="showContent('about')">About</a></li>
+        <a href="#" onclick="showContent('work')">Work Experience</a></li>
+        <a href="#" onclick="showContent('education')">Education</a></li>
+        <a href="#" onclick="showContent('projects')">Projects</a></li>
 
         {% if site.show_downloads %}
         <ul class="downloads center-flex">
