@@ -24,14 +24,12 @@
         <br>  
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <nav>
-          <ul>
-            <li><a href="#" onclick="showContent('about')">About</a></li>
-            <li><a href="#" onclick="showContent('work')">Work Experience</a></li>
-            <li><a href="#" onclick="showContent('education')">Education</a></li>
-            <li><a href="#" onclick="showContent('projects')">Projects</a></li>
-          </ul>
-        </nav>
+        <ul>
+          <li><a href="#" onclick="showContent('about')">About</a></li>
+          <li><a href="#" onclick="showContent('work')">Work Experience</a></li>
+          <li><a href="#" onclick="showContent('education')">Education</a></li>
+          <li><a href="#" onclick="showContent('projects')">Projects</a></li>
+        </ul>
 
 
         {% if site.show_downloads %}
@@ -57,13 +55,6 @@
       <section id="projects" class="tab-content" style="display:none;">
         {% include_relative projects.md %}
       </section>
-
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script>
