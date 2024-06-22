@@ -24,6 +24,16 @@
         <br>  
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+        <nav>
+          <ul>
+            <li><a href="#" onclick="showContent('about')">About</a></li>
+            <li><a href="#" onclick="showContent('work')">Work Experience</a></li>
+            <li><a href="#" onclick="showContent('education')">Education</a></li>
+            <li><a href="#" onclick="showContent('projects')">Projects</a></li>
+          </ul>
+        </nav>
+
+
         {% if site.show_downloads %}
         <ul class="downloads center-flex">
           <li><a href="https://in.linkedin.com/in/devika-gumaste" target="_blank"><i class="fa fa-linkedin" style="font-size:24px;color:#267CB9;"></i></a></li>
@@ -31,13 +41,21 @@
           <li><a href="https://github.com/devika3370" target="_blank"><i class="fa fa-github" style="font-size:24px;color:#333;"></i></a></li>
         </ul>
         {% endif %}
+
         <p>You can download my resume <a href="{{ site.resume_path }}">here</a>.</p>
 
       </header>
-      <section>
-
-      {{ content }}
-      
+      <section id="about" class="tab-content">
+        {{ content }}
+      </section>
+      <section id="work" class="tab-content" style="display:none;">
+        {% include_relative work.md %}
+      </section>
+      <section id="education" class="tab-content" style="display:none;">
+        {% include_relative education.md %}
+      </section>
+      <section id="projects" class="tab-content" style="display:none;">
+        {% include_relative projects.md %}
       </section>
 
       <footer>
@@ -48,6 +66,17 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      function showContent(tabId) {
+        const contents = document.querySelectorAll('.tab-content');
+        contents.forEach(content => content.style.display = 'none');
+        document.getElementById(tabId).style.display = 'block';
+      }
+  
+      document.addEventListener('DOMContentLoaded', () => {
+        showContent('about');
+      });
+    </script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
