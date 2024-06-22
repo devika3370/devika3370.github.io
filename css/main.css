@@ -9,8 +9,8 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: block; /* Change to block for vertical alignment */
-    margin-bottom: 10px; /* Add margin for spacing */
+    display: inline;
+    margin-right: 20px;
 }
 a {
     text-decoration: none;

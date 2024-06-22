@@ -1,84 +1,28 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% seo %}
-  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!--[if lt IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <![endif]-->
-  <style>
-    .profile-picture {
-      max-width: 150px; /* Reduce profile picture size */
-      border-radius: 50%;
-      display: block;
-      margin: 0 auto;
-    }
-    .left-column {
-      text-align: left;
-      width: 25%;
-      float: left;
-      padding-right: 20px;
-    }
-    .left-column nav ul {
-      padding: 0;
-      list-style: none;
-    }
-    .left-column nav ul li {
-      margin: 10px 0;
-    }
-    .left-column nav ul li a {
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-    }
-    .left-column nav ul li a:hover {
-      text-decoration: underline;
-    }
-    .resume-download {
-      margin-top: 20px;
-    }
-    .downloads {
-      margin-top: 20px;
-    }
-    .content {
-      width: 70%;
-      float: right;
-    }
-    footer {
-      clear: both;
-      margin-top: 40px;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-  <div class="wrapper">
-    <header class="center-align full-width">
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-      
-      {% if site.logo %}
-        <img src="{{ "assets/img/logo.png" | absolute_url }}" alt="Logo" class="profile-picture"/>
-      {% endif %}
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header style="text-align: center;" class="center-align full-width">
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        
+        {% if site.logo %}
+          <img src="{{"assets/img/logo.png" | absolute_url }}" alt="Logo" class="center-block"/>
+        {% endif %}
 
-      <br>  
-      <p>{{ site.description | default: site.github.project_tagline }}</p>
-      
-      <div class="left-column">
-        <nav>
-          <ul>
-            <li><a href="#" onclick="showContent('about')">About</a></li>
-            <li><a href="#" onclick="showContent('work')">Work Experience</a></li>
-            <li><a href="#" onclick="showContent('education')">Education</a></li>
-            <li><a href="#" onclick="showContent('projects')">Projects</a></li>
-          </ul>
-        </nav>
-
-        <p class="resume-download">You can download my resume <a href="{{ site.resume_path }}">here</a>.</p>
+        <br>  
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.show_downloads %}
         <ul class="downloads center-flex">
@@ -87,52 +31,32 @@
           <li><a href="https://github.com/devika3370" target="_blank"><i class="fa fa-github" style="font-size:24px;color:#333;"></i></a></li>
         </ul>
         {% endif %}
-      </div>
-    </header>
+        <p>You can download my resume <a href="{{ site.resume_path }}">here</a>.</p>
 
-    <div class="content">
-      <section id="about" class="tab-content">
-        {{ content }}
+      </header>
+      <section>
+
+      {{ content }}
+      
       </section>
-      <section id="work" class="tab-content" style="display:none;">
-        {% include_relative work.md %}
-      </section>
-      <section id="education" class="tab-content" style="display:none;">
-        {% include_relative education.md %}
-      </section>
-      <section id="projects" class="tab-content" style="display:none;">
-        {% include_relative projects.md %}
-      </section>
+
+      <footer>
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-
-    <footer>
-      {% if site.github.is_project_page %}
-      <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-      {% endif %}
-      <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-    </footer>
-  </div>
-  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  <script>
-    function showContent(tabId) {
-      const contents = document.querySelectorAll('.tab-content');
-      contents.forEach(content => content.style.display = 'none');
-      document.getElementById(tabId).style.display = 'block';
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-      showContent('about');
-    });
-  </script>
-  {% if site.google_analytics %}
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', '{{ site.google_analytics }}', 'auto');
-    ga('send', 'pageview');
-  </script>
-  {% endif %}
-</body>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+  </body>
 </html>
