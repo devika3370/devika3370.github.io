@@ -13,3 +13,12 @@ Currently, I am working as a researcher under the guidance of <a href="https://s
 My passion lies at the intersection of machine learning and computer vision. I am passionate about leveraging these technologies to solve complex problems and drive innovation. I am **currently seeking full-time opportunities** where I can apply my expertise, contribute to impactful projects, and continue to grow as a professional in the field.
 
 
+# Work Experience
+
+* <a href="https://www.zs.com/" target="_blank">ZS Associates</a>[2021 - 2023]
+* <a href="https://asteria.co.in/" target="_blank">Asteria Aerospace</a> [2020]
+
+# Education
+
+* MS Electrical Engineering, Columbia University [2024]
+* BE Electronics and Communication Engineering, BITS Pilani [2017]
