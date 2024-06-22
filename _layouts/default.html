@@ -39,12 +39,15 @@
     .left-column nav ul li a:hover {
       text-decoration: underline;
     }
-    .content {
-      width: 70%;
-      float: right;
+    .resume-download {
+      margin-top: 20px;
     }
     .downloads {
       margin-top: 20px;
+    }
+    .content {
+      width: 70%;
+      float: right;
     }
     footer {
       clear: both;
@@ -55,7 +58,7 @@
 </head>
 <body>
   <div class="wrapper">
-    <header style="text-align: center;" class="center-align full-width">
+    <header class="center-align full-width">
       <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
       
       {% if site.logo %}
@@ -74,13 +77,9 @@
             <li><a href="#" onclick="showContent('projects')">Projects</a></li>
           </ul>
         </nav>
-      </div>
 
-      <div>
-        <p>You can download my resume <a href="{{ site.resume_path }}">here</a>.</p>
-      </div>
+        <p class="resume-download">You can download my resume <a href="{{ site.resume_path }}">here</a>.</p>
 
-      <div>
         {% if site.show_downloads %}
         <ul class="downloads center-flex">
           <li><a href="https://in.linkedin.com/in/devika-gumaste" target="_blank"><i class="fa fa-linkedin" style="font-size:24px;color:#267CB9;"></i></a></li>
@@ -89,7 +88,6 @@
         </ul>
         {% endif %}
       </div>
-
     </header>
 
     <div class="content">
