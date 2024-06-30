@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://devika3370.github.io/sitemap.xml

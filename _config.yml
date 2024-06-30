@@ -1,39 +1,7 @@
-# Site settings
-name: Devika Gumaste
-title: Devika Gumaste | MS Electrical Engineering, Columbia University
-description: I'm a software engineer and a data scientist
-url: https://devika3370.github.io/
-baseurl: ''
-email: dg3370@columbia.edu
-cover: https://devika3370.github.io/img/og.png
-logo: https://devika3370.github.io/img/emojis/technologist.png
-resume: https://devika3370.github.io/resume.pdf
-social:
-  - title: email
-    url: mailto:dg3370@columbia.edu
-  - title: github
-    url: https://github.com/devika3370
-  - title: linkedin
-    url: https://www.linkedin.com/in/devika-gumaste
-
-# Build settings
-markdown: kramdown
-
-exclude:
-  - 'Gemfile'
-  - 'Gemfile.lock'
-  - '*.gemspec'
-  - 'README.md'
-  - 'node_modules'
-  - 'build'
-  - 'gulpfile.js'
-  - 'package.json'
-
-keep_files:
-  - 'CNAME'
-  - '.git'
-  - '.gitignore'
-
-plugins_dir:
-  - jekyll-minifier
-  - jekyll-sitemap
+title: Devika Gumaste
+logo: /assets/img/logo.png
+description: Master's student at Columbia University, specializing in Deep Learning
+show_downloads: true
+google_analytics: UA-153190190-1
+theme: jekyll-theme-minimal
+resume_path: /assets/docs/resume.pdf
