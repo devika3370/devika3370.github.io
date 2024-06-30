@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/devika3370.github.io",
   siteMetadata: {
     title: 'Devika Gumaste',
     description: 'Devika Gumaste is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
