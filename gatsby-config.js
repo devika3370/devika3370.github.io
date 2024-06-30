@@ -5,7 +5,7 @@ module.exports = {
     title: 'Devika Gumaste',
     description:
       'Devika Gumaste is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://devikagumaste.com', // No trailing slash allowed!
+    siteUrl: 'https://devika3370.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [
