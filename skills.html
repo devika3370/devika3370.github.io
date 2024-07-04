@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" href="/css/main.css"> Adjust path as needed -->
     <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+            gap: 20px; /* Gap between cards */
+            padding: 20px; /* Padding around the grid */
+        }
         .card {
             border: 1px solid #ccc;
             border-radius: 8px;
             padding: 16px;
-            margin-bottom: 20px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             text-align: center;
         }
@@ -28,33 +33,35 @@
     </style>
 </head>
 <body>
-    <h2>Skills</h2>
+    <h2 style="text-align: center;">Skills</h2>
 
-    <div class="card">
-        <div class="logo">
-            <img src="path_to_logo_image" alt="Skill Logo" style="width: 80px; height: 80px;">
+    <div class="grid-container">
+        <div class="card">
+            <div class="logo">
+                <img src="path_to_logo_image" alt="Skill Logo" style="width: 80px; height: 80px;">
+            </div>
+            <h3>Skill Name</h3>
+            <p>Description of the skill goes here. This could include details about proficiency, experience, or specific applications.</p>
         </div>
-        <h3>Skill Name</h3>
-        <p>Description of the skill goes here. This could include details about proficiency, experience, or specific applications.</p>
-    </div>
 
-    <div class="card">
-        <div class="logo">
-            <img src="path_to_logo_image" alt="Skill Logo" style="width: 80px; height: 80px;">
+        <div class="card">
+            <div class="logo">
+                <img src="path_to_logo_image" alt="Skill Logo" style="width: 80px; height: 80px;">
+            </div>
+            <h3>Skill Name</h3>
+            <p>Description of the skill goes here. This could include details about proficiency, experience, or specific applications.</p>
         </div>
-        <h3>Skill Name</h3>
-        <p>Description of the skill goes here. This could include details about proficiency, experience, or specific applications.</p>
-    </div>
 
-    <div class="card">
-        <div class="logo">
-            <img src="path_to_logo_image" alt="Skill Logo" style="width: 80px; height: 80px;">
+        <div class="card">
+            <div class="logo">
+                <img src="path_to_logo_image" alt="Skill Logo" style="width: 80px; height: 80px;">
+            </div>
+            <h3>Skill Name</h3>
+            <p>Description of the skill goes here. This could include details about proficiency, experience, or specific applications.</p>
         </div>
-        <h3>Skill Name</h3>
-        <p>Description of the skill goes here. This could include details about proficiency, experience, or specific applications.</p>
+
+        <!-- Repeat the above card structure for additional skills -->
+
     </div>
-
-    <!-- Repeat the above card structure for additional skills -->
-
 </body>
 </html>
