@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Introduction
+## Introduction
 
 Hello! I'm Devika. I am currently pursuing MS in Electrical Engineering with a specialization in Machine Learning at <a href="https://www.ee.columbia.edu/ms-program-ee" target="_blank">Columbia University</a>.
 
@@ -15,12 +15,12 @@ My passion lies at the intersection of machine learning and computer vision. I a
 You can download my resume <a href="{{ site.resume_path }}">here</a>.
 
 
-# Work Experience
+## Work Experience
 
 * <a href="https://www.zs.com/" target="_blank">ZS Associates</a>[2021 - 2023]
 * <a href="https://asteria.co.in/" target="_blank">Asteria Aerospace</a> [2020]
 
-# Education
+## Education
 
 * MS Electrical Engineering, Columbia University [2024]
 * BE Electronics and Communication Engineering, BITS Pilani [2017]
