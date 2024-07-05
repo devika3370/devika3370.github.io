@@ -11,6 +11,7 @@
             margin-bottom: 8px;
             text-align: left;
             display: inline-block;
+            font-size: medium;
         }
         p {
             font-size: 1em;
@@ -25,7 +26,7 @@
             color: #333;
         }
         .links a:hover {
-            color: #267CB9; /* Adjust hover color as needed */
+            color: #267CB9;
         }
     </style>
 </head>
@@ -34,11 +35,14 @@
 
     <div>
         <h3><a href="https://github.com/devika3370/arrhythmia-detection-using-vision-transformers" target="_blank">Arrhythmia Detection using Vision Transformers</a></h3>
-        <p>This project aims to utilize Vision Transformers (ViTs) for detecting arrhythmias in electrocardiogram (ECG) images. 
-            By leveraging state-of-the-art transformer architectures such as BEiT, DEiT, Swin Tiny, and ViT, 
-            combined with knowledge distillation techniques, we aim to develop an accurate and efficient arrhythmia detection system.
-            This study explores the use of vision tranformers for the detection of cardiac arrhythmia in 12-lead ECG images to facilitate early detection
-            and treatment of arrhythmias from non-clinical settings. 
+        <p> This study explores the use of vision tranformers for the detection of cardiac arrhythmia in 12-lead ECG images 
+            to facilitate early detection and treatment of arrhythmias from non-clinical settings. 
+            It investigates several transformer architectures, including BEiT, Swin Tiny, Google ViT, and DEiT 
+            leveraging their robust feature extraction capabilities for medical image analysis. 
+            The approach incorporates a knowledge distillation
+            framework where a larger pre-trained transformer (teacher) imparts learned representations 
+            to a more compact CNN (student) model, optimizing
+            for both performance and computational efficiency. 
         </p>
     </div>
 
