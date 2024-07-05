@@ -13,7 +13,7 @@ Currently, I am working as a researcher under the guidance of <a href="https://s
 My passion lies at the intersection of machine learning and computer vision. I am passionate about leveraging these technologies to solve complex problems and drive innovation. I am **currently seeking full-time opportunities** where I can apply my expertise, contribute to impactful projects, and continue to grow as a professional in the field.
 
 You can download my resume <a href="{{ site.resume_path }}">here</a>.
-<a href="{{ site.resume_path }}" target="_blank" style="text-decoration: none; float: right;">
+<a href="{{ site.resume_path }}" target="_blank" style="text-decoration: none;">
     <span style="display: inline-block; background-color: #100000; color: #ffffff; padding: 6px 10px; border-radius: 2px; 
     font-size: 14px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
     Resume
