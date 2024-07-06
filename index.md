@@ -16,7 +16,7 @@ You can download my <strong>resume <a href="{{ site.resume_path }}">here</a></st
 
 ## Work Experience
 
-* <a href="#zs" target="_blank">ZS Associates</a>[2021 - 2023]
+* <a href="https://www.zs.com/" target="_blank">ZS Associates</a>[2021 - 2023]
 * <a href="https://asteria.co.in/" target="_blank">Asteria Aerospace</a> [2020]
 
 ## Education
