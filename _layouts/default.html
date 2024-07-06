@@ -25,10 +25,10 @@
         <br>  
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <a href="#" onclick="showContent('about')"><i class="fa fa-book"></i>  About</a> <br>
-        <a href="#" onclick="showContent('work')"><i class="fa fa-briefcase"></i>  Work Experience</a><br>
-        <a href="#" onclick="showContent('edu')"><i class="fa fa-graduation-cap"></i>Education</a><br>
-        <a href="#" onclick="showContent('projects')"><i class="fa fa-rocket"></i>  Projects</a><br><br><br>
+        <a href="about" onclick="showContent('about')"><i class="fa fa-book"></i>  About</a> <br>
+        <a href="work" onclick="showContent('work')"><i class="fa fa-briefcase"></i>  Work Experience</a><br>
+        <a href="education" onclick="showContent('edu')"><i class="fa fa-graduation-cap"></i>Education</a><br>
+        <a href="projects" onclick="showContent('projects')"><i class="fa fa-rocket"></i>  Projects</a><br><br><br>
 
         {% if site.show_downloads %}
         <ul class="downloads center-flex">
