@@ -27,10 +27,10 @@ You can download my <strong>resume <a href="{{ site.resume_path }}">here</a></st
 ## Things I Can Do
 
 Here are some of the key skills that I've gained through my experiences:
-<ul class="feature-icons">
-    <li class="fa fa-book">Deep Learning, Software Engineering, Computer Vision, NLP</li>
-    <li class="fa fa-cubes">PyTorch, Tensorflow, Scikit-Learn,<br/>Pandas</li>
-    <li class="fa fa-code">Python, Java, C/C++, JavaScript,<br/>HTML/CSS</li>
-    <li class="fa fa-bolt">SQL, Database Design, Data Modeling,<br/>Data Pipelines</li>
-    <li class="fa fa-users">CUDA, Linux, Android Studio,<br/>HPC/Slurm, Docker</li>
+<ul>
+    <li class="fa fa-book"> Deep Learning, Software Engineering, Computer Vision, NLP</li>
+    <li class="fa fa-cubes"> PyTorch, Tensorflow, Scikit-Learn, Pandas</li>
+    <li class="fa fa-code"> Python, Java, C/C++, JavaScript, HTML/CSS</li>
+    <li class="fa fa-bolt"> SQL, Database Design, Data Modeling, Data Pipelines</li>
+    <li class="fa fa-users"> CUDA, Linux, Android Studio, HPC/Slurm, Docker</li>
 </ul>
