@@ -28,9 +28,9 @@ You can download my <strong>resume <a href="{{ site.resume_path }}">here</a></st
 
 Here are some of the key skills that I've gained through my experiences:
 
-* **Areas:** Machine Learning, Deep Learning, Computer Vision, Data Science, Software Engineering
-* **Languages:** Python, R, SQL, C, C++, HTML/CSS, Assembly x86, Shell Script
-* **Technologies:** Git, AWS (S3, SageMaker, ECS, EC2, Lambda), Google Cloud Platform (GCE), PostgreSQL, MySQL, Access DB, Flask, FAST, ROS, RestAPI, Jenkins, Docker, Nexus, TeamCity, Excel, Jupyter Lab
-* **Libraries:** Tensorflow, PyTorch, NumPy, Pandas, TensorRT, CUDA, Dask, Matplotlib, Sklearn, SQLAlchemy, Geopandas,
-Seaborn
-* **Soft Skills:** Problem solving, Team Collaboration, Project Management, Communication
+**Areas:** Machine Learning, Deep Learning, Computer Vision, Data Science, Software Engineering <br>
+**Languages:** Python, R, SQL, C, C++, HTML/CSS, Assembly x86, Shell Script<br>
+**Technologies:** Git, AWS (S3, SageMaker, ECS, EC2, Lambda), Google Cloud Platform (GCE), PostgreSQL, MySQL, Access DB, Flask, FAST, ROS, RestAPI, Jenkins, Docker, Nexus, TeamCity, Excel, Jupyter Lab<br>
+**Libraries:** Tensorflow, PyTorch, NumPy, Pandas, TensorRT, CUDA, Dask, Matplotlib, Sklearn, SQLAlchemy, Geopandas,
+Seaborn<br>
+**Soft Skills:** Problem solving, Team Collaboration, Project Management, Communication
