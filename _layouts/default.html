@@ -12,6 +12,18 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+    <style>
+      body {
+        text-align: center;
+      }
+      .wrapper {
+        display: inline-block;
+        text-align: left;
+      }
+      .justify-text {
+        text-align: justify;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -39,7 +51,7 @@
         {% endif %}
 
       </header>
-      <section id="about" class="tab-content">
+      <section id="about" class="tab-content justify-text">
         {{ content }}
       </section>
       <section id="work" class="tab-content" style="display:none;">

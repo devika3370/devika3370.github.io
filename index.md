@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<div class="justify-text">
 ## Introduction
 
 Hello! I'm Devika. I am currently pursuing MS in Electrical Engineering with a specialization in Machine Learning at <a href="https://www.ee.columbia.edu/ms-program-ee" target="_blank">Columbia University</a>.
