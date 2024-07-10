@@ -2,9 +2,10 @@
 layout: default
 ---
 
-<div class="justify-text">
+
 ## Introduction
 
+<div class="justify-text">
 Hello! I'm Devika. I am currently pursuing MS in Electrical Engineering with a specialization in Machine Learning at <a href="https://www.ee.columbia.edu/ms-program-ee" target="_blank">Columbia University</a>.
 
 Before joining Columbia, I worked as a Software Engineer at <a href="https://www.zs.com/" target="_blank">ZS Associates</a> for two years, where I designed and developed analytical solutions for the pharmaceutical industry. My role comprised of backend development, frontend development, and DevOps, providing me with a comprehensive understanding of the software development lifecycle and the ability to contribute effectively across various stages of a project.
