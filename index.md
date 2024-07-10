@@ -23,3 +23,18 @@ You can download my <strong>resume <a href="{{ site.resume_path }}">here</a></st
 
 * MS Electrical Engineering, Columbia University [December 2024]
 * BE Electronics and Communication Engineering, BITS Pilani [2017]
+
+<section>
+    <div class="container">
+        <h3>Things I Can Do</h3>
+        <p>Here are some of the key skills that I've gained through my experiences:</p>
+        <ul class="feature-icons">
+            <li class="icon solid fa-book">Deep Learning, Software Engineering, Computer Vision, NLP</li>
+            <li class="icon solid fa-cubes">PyTorch, Tensorflow, Scikit-Learn,<br/>Pandas</li>
+            <li class="icon solid fa-code">Python, Java, C/C++, JavaScript,<br/>HTML/CSS</li>
+            <li class="icon solid fa-bolt">SQL, Database Design, Data Modeling,<br/>Data Pipelines</li>
+            <li class="icon solid fa-users">CUDA, Linux, Android Studio,<br/>HPC/Slurm, Docker</li>
+            <li class="icon solid fa-coffee">Coffee making:<br/>Espresso, Cappuccino, Latte, Mocha</li>
+        </ul>
+    </div>
+</section>
