@@ -13,6 +13,7 @@ Before joining Columbia, I worked as a Software Engineer at <a href="https://www
 Currently, I am working as a researcher under the guidance of <a href="https://sites.google.com/site/mobiledcc/zk-my-page?authuser=0" target="_blank">Professor Zoran Kostic</a> in the <a href="https://www.cosmos-lab.org/experimentation/smart-city-intersections/" target="_blank">computer vision team</a> at the <a href="https://cosmos-lab.org/" target="_blank">COSMOS Lab</a>.
 
 My passion lies at the intersection of machine learning and computer vision. I am passionate about leveraging these technologies to solve complex problems and drive innovation. I am **currently seeking full-time opportunities** where I can apply my expertise, contribute to impactful projects, and continue to grow as a professional in the field.
+</div>
 
 You can download my <strong>resume <a href="{{ site.resume_path }}">here</a></strong>.
 
