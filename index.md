@@ -34,5 +34,5 @@ Here are some of the key skills that I've gained through my experiences:
 <strong>Languages:</strong> Python, R, SQL, C, C++, HTML/CSS, Assembly x86, Shell Script<br><br>
 <strong>Technologies:</strong> Git, AWS, Google Cloud Platform, PostgreSQL, MySQL, Flask, FAST, ROS, RestAPI, Jenkins, Docker, Nexus, TeamCity, Excel, Jupyter<br><br>
 <strong>Libraries:</strong> Tensorflow, PyTorch, NumPy, Pandas, TensorRT, CUDA, Dask, Matplotlib, Sklearn, SQLAlchemy, Seaborn<br><br>
-<strong>Soft Skills:</strong>Problem solving, Team Collaboration, Project Management, Communication
+<strong>Soft Skills:</strong> Problem solving, Team Collaboration, Project Management, Communication
 <div>
