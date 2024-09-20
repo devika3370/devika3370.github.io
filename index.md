@@ -24,7 +24,7 @@ You can download my <strong>resume <a href="{{ site.resume_path }}">here</a></st
 
 ## Education
 
-* MS Electrical Engineering, Columbia University [December 2024]
+* MS Electrical Engineering, Columbia University [May 2025]
 * BE Electronics and Communication Engineering, BITS Pilani [2017]
 
 ## Things I Can Do
